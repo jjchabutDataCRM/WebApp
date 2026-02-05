@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 
 source = data.cars()
 
+
+
+if st.button("Call API"):
+    st.balloons()
+
 st.header("Visualization")
 
 st.subheader("Matplotlib")
